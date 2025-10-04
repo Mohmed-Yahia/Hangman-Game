@@ -144,8 +144,9 @@ function endGame() {
   // creat popup div
   let div = document.createElement("div");
   // create text for div
- let divText = document.createTextNode(`Game Over ALOOSH, The Word Is ${randomValueValue}`);
+ let divText = document.createTextNode(`Game Over , The Word Is ${randomValueValue}`);
  div.appendChild(divText);
  div.className = "popup";
  document.body.appendChild(div);
+
 };
